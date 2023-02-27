@@ -81,7 +81,7 @@ coop_pause()
 			paused_hud = newhudelem();
 			paused_hud.horzAlign = "center";
 			paused_hud.vertAlign = "middle";
-			paused_hud setText("THE GAME IS IN PAUSE YOU CAN GO AWAY !");
+			paused_hud setText("game paused");
 			paused_hud.foreground = true;
 			paused_hud.fontScale = 2.3;
 			paused_hud.x -= 150;
